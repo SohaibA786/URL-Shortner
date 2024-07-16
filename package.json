@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "postinstall": "prisma generate",
     "build": "prisma generate && nest build",
     "start": "nest start",
     "start:dev": "nest start --watch",
